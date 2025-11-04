@@ -11,6 +11,7 @@ Then connect pgAdmin to this database, open the 'init' file and run it. This wil
 Open the 'app' file and run that as well. You can right-click on the database, and open the query tool to use the functions from the 'app' file. 
 
 I will list out how to execute each function:
+
 SELECT * FROM getAllStudents(); -- displays the table
 SELECT addStudent('FirstName', 'LastName', 'Email@email.com', '2000-01-01'); -- adds a new student
 SELECT updateStudentEmail(1, 'NewEmail@email.com') -- updates the email of the student with the given id
