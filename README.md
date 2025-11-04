@@ -1,6 +1,7 @@
 # Author: Mo Yeo
 # Student ID: 101313512
 
+Link to demo video: https://www.youtube.com/watch?v=LEKXxwPqgfw
 This repository contains a source code folder, and this README file.
 The source code folder contains 2 sql files: 'a3q1_app' and 'a3q1_init'.
 The file 'init' simply creates a table called 'student', with 5 attributes.
