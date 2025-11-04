@@ -13,6 +13,10 @@ Open the 'app' file and run that as well. You can right-click on the database, a
 I will list out how to execute each function:
 
 SELECT * FROM getAllStudents(); -- displays the table
+
 SELECT addStudent('FirstName', 'LastName', 'Email@email.com', '2000-01-01'); -- adds a new student
+
 SELECT updateStudentEmail(1, 'NewEmail@email.com') -- updates the email of the student with the given id
+
 SELECT deleteStudent(1) -- deletes the student with the given id from the table
+
